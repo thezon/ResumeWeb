@@ -1,0 +1,291 @@
+[
+ {:db/id #db/id[:db.part/user -7]
+  :resume/resumetype "Clojure"}
+ 
+ {:db/id #db/id[:db.part/user -8]
+  :resume/resumetype "Java"}
+ 
+ {:db/id #db/id[:db.part/user -9]
+  :resume/resumetype "Project Mang."}
+ 
+ ;concept
+ {:db/id #db/id [:db.part/user]
+  :concept/resumetype #db/id[:db.part/user -7]
+  :concept/title "Languages / Framework"
+  :concept/summary ["Java 7 & 8, JDK 1.7, JSF 2.0, Spring, Maven, Primefaces 5.0, Icefaces, JDBC, JSP 2.2,Lisp, Scheme, Scala,, SAS, R 2.1, JQuery 1.8, JSON, XPath, Javscript, AngualrJS, CSS, XML, PL/SQL, C"
+                    "Clojure specific: Clojure 1.7, Clojurescript, Counterclockwise, Compojure, pedestal, Ring, logic.core, Leiningen, EDN, OM, Figwheel, Datatomic, Hiccup(s), Dommy"]}
+ 
+ {:db/id #db/id [:db.part/user]
+  :concept/resumetype #db/id[:db.part/user -7]
+  :concept/title "Environments / Tools"
+  :concept/summary ["RAD 7/8, Eclipse, Netbeans, AWS, Clearcase, Clearquest, Toad, SP center, Buildforge, Quality Center, WAS 8.5, Glassfish, JBoss 7.1, Jetti, Tortoise SVN, Oracle10g/11g, Microsoft Office, SharePoint, Citrix, Access, Visio, MS Project, Clarity, Mirth, Unix"]}
+ 
+ {:db/id #db/id [:db.part/user]
+  :concept/resumetype #db/id[:db.part/user -7]
+  :concept/title "Software Development Concepts"
+  :concept/summary ["SCRUM, TDD, Prototyping, Extreme programming"
+                    "MVC, OOP Design Patterns, Injection, Lambda expressions, Entity Beans, Web Services and SOA, SOAP, ROA, REST, Middleware, Page Scrapping"
+                    "Data Model Design, ETL, Normalization, Triggers, Materialized view, grants, package development"
+                    "Macro Development, Neural Networks, Numerical Optimization, Image processing"]}
+ 
+ {:db/id #db/id [:db.part/user]
+  :concept/resumetype #db/id[:db.part/user -7]
+  :concept/title "Project management / Traditional Management"
+  :concept/summary ["Project: Initialization, Development, Implementation, Monitoring and Closing"
+                    "Managing:  Risk, Scope, Change, Resources, Cost, Inventory, Procurement"
+                    "Sales: SOP, Conflict Resolution, Support, Complete Solutions, Demographic Alignment, Gap Analysis"
+                    "Agile, Scrum, prototype, spiral, Process management "]}
+ 
+ {:db/id #db/id [:db.part/user]
+  :concept/resumetype #db/id[:db.part/user -7]
+  :concept/title "Statistical / Mathematics"
+  :concept/summary ["Regression Models (Linear, Multiple, Logistic, Poisson), Time Series (ARIMA, X11, MA), Non Parametric Statistics (Spearmen, Kendal, bootstrap, Kruskal)  Operational Research (linear programming), Cluster analysis, Bayesian networks, Optimization, Numeric Intelligence"]}
+ 
+ {:db/id #db/id [:db.part/user]
+  :concept/resumetype #db/id[:db.part/user -7]
+  :concept/title "Electrical"
+  :concept/summary ["Diagnostics, VOM, Oscilloscope, LRC circuits (Hi, Low, Band and Notch filters), Switching logic and implementation, System integration, Acoustics"]}
+ 
+ ;statement
+ {:db/id #db/id [:db.part/user]
+  :statement/resumetype #db/id[:db.part/user -7]
+  :statement/title "Personal Statement"
+  :statement/statement "I strive to create value through perpetual growth that aligns with company values and objectives. Consistently work to develop and foster self-sufficient teams, processes and systems that provide residual benefit to all stakeholders. Seamlessly match needs with solutions while applying unique thinking process when required"}
+ 
+ ;job
+ {:db/id #db/id[:db.part/user]
+  :job/resumetype #db/id[:db.part/user -7]
+  :job/emp-name "CSX"
+  :job/date-start "1/1/2015"
+  :job/date-end "Current"
+  :job/title "Technical Project Manager"}
+ 
+ {:db/id #db/id[:db.part/user]
+  :job/resumetype #db/id[:db.part/user -7]
+  :job/emp-name "CSX"
+  :job/date-start "1/1/2015"
+  :job/date-end "Current"
+  :job/title "Technical Project Manager"}
+ 
+ {:db/id #db/id[:db.part/user]
+  :job/resumetype #db/id[:db.part/user -7]
+  :job/emp-name "Apple One (CSX contractor)"
+  :job/date-start "12/5/2012"
+  :job/date-end "5/1/2014"
+  :job/title "Sr. Software Engineer"}
+ 
+ {:db/id #db/id[:db.part/user]
+  :job/resumetype #db/id[:db.part/user -7]
+  :job/emp-name "Apple One (CSX contractor)"
+  :job/date-start "11/15/2011"
+  :job/date-end "12/5/2012"
+  :job/title "Lead Developer"}
+ 
+ {:db/id #db/id[:db.part/user]
+  :job/resumetype #db/id[:db.part/user -7]
+  :job/emp-name "Apple One (CSX contractor)"
+  :job/date-start "9/1/2011"
+  :job/date-end "11/15/2011"
+  :job/title "Quality Assurance"}
+ 
+ {:db/id #db/id[:db.part/user]
+  :job/resumetype #db/id[:db.part/user -7]
+  :job/emp-name "Best Buy"
+  :job/date-start "2/1/2011"
+  :job/date-end "9/1/2011"
+  :job/title "VBA Developer"} 
+ 
+ {:db/id #db/id[:db.part/user]
+  :job/resumetype #db/id[:db.part/user -7]
+  :job/emp-name "Best Buy"
+  :job/date-start "9/21/1999"
+  :job/date-end "2/1/2011"
+  :job/title "Master Electronic Tech"} 
+ 
+ {:db/id #db/id[:db.part/user]
+  :job/resumetype #db/id[:db.part/user -7]
+  :job/emp-name "UNF"
+  :job/date-start "2/1/2011"
+  :job/date-end "5/1/2013"
+  :job/title "Research Assistant"}  
+ 
+ {:db/id #db/id[:db.part/user]
+  :job/resumetype #db/id[:db.part/user -7]
+  :job/emp-name "USN"
+  :job/date-start "7/22/1994"
+  :job/date-end "7/22/1998"
+  :job/title "Radioman"}
+ 
+ ;education
+ {:db/id #db/id[:db.part/user]
+  :education/resumetype #db/id[:db.part/user -7]
+  :education/college-name "UNF"
+  :education/date-start "8/1/2012"
+  :education/date-end "Current"
+  :education/degree "Masters in Computer Science"
+  :education/gpa "4.0"
+  :education/description ["Most innovative research in Symposium 2012"]}
+ 
+ {:db/id #db/id[:db.part/user]
+  :education/resumetype #db/id[:db.part/user -7]
+  :education/college-name "UNF"
+  :education/date-start "1/7/2006"
+  :education/date-end "8/20/2011"
+  :education/degree "Bachelors of Science in Computer Science"
+  :education/gpa "3.8"
+  :education/description [""]}
+ 
+ {:db/id #db/id[:db.part/user]
+  :education/resumetype #db/id[:db.part/user -7]
+  :education/college-name "UNF"
+  :education/date-start "1/7/2006"
+  :education/date-end "8/20/2011"
+  :education/degree "Bachelors of Science in Statistics with Minor in Mathematics"
+  :education/gpa "3.2"
+  :education/description [""]}
+ 
+ ;project
+ {:db/id #db/id[:db.part/user]
+  :project/resumetype #db/id[:db.part/user -7]
+  :project/title "Structure Asset Management"
+  :project/description ["Description: Primary source of data for complex linear asset structures providing the capability to perform CRUD and reporting."
+                        "Technologies: JSF, Primefaces, JAVA, ORACLE, PL/SQL, JQuery, CSS, Services, SOA, WebSphere"
+                        "Key Tasks: ETL, Prototype development, GUI Design, Architecture design"]}
+ 
+ {:db/id #db/id[:db.part/user]
+  :project/resumetype #db/id[:db.part/user -7]
+  :project/title "Road Crossings Asset Management"
+  :project/description ["Description: Primary source of data for point asset providing the capability to perform CRUD, federal reconciliation and reporting. "
+                        "Technologies: JSP, JAVA, ORACLE, PL/SQL, JQuery, Javscript, CSS, services."
+                        "Key Tasks: Reconciliation of federal records, Data cleaning, Reporting "]}
+ 
+ {:db/id #db/id[:db.part/user]
+  :project/resumetype #db/id[:db.part/user -7]
+  :project/title "Mobile Tie Marking"
+  :project/description ["Description: In field geolocation of asset defects to support financial planning and projects."
+                        "Technologies:  Clojure, Cordova, Worklight, AngularJS, HTML5, JQuery, CSS, Android, Oracle,PL/SQL."
+                        "Key Tasks: Asynchronous communications, GUI Design, Customer stories translated to user flows."]}
+ 
+ {:db/id #db/id[:db.part/user]
+  :project/resumetype #db/id[:db.part/user -7]
+  :project/title "Post cardiothoracic analysis"
+  :project/description ["Description: Rigorous evaluation of infections based on insulin level control of post cardiothoracic surgery patience."
+                        "Technologies:  SAS."
+                        "Key Tasks: Data cleaning, Descriptive statistics, Logistic Regression."]}
+ 
+ {:db/id #db/id[:db.part/user]
+  :project/resumetype #db/id[:db.part/user -7]
+  :project/title "Automated heart volume detection from MRI"
+  :project/description ["Description: Replace manual process of heart wall identification with an automated tool using numerical intelligence."
+                        "Technologies:   Clojure, Java, swing."
+                        "Key Tasks: 3rd party MRI integration, Image processing, Numerical Intelligence, Performance optimization."]}
+ 
+ {:db/id #db/id[:db.part/user]
+  :project/resumetype #db/id[:db.part/user -7]
+  :project/title "Industrial process parameter analysis"
+  :project/description ["Description: Progressively identify parameter changes of process lines using artificial intelligence."
+                        "Technologies:   Java."
+                        "Key Tasks:  Multilayer perceptron modeling, Regression analysis, Process Control methods."]}
+ 
+ {:db/id #db/id[:db.part/user]
+  :project/resumetype #db/id[:db.part/user -7]
+  :project/title "Statistical suite"
+  :project/description ["Description: Merging the R environment with Clojure using REPL as the interface."
+                        "Technologies:  Clojure, Java, Renjin."
+                        "Create idiomatic Clojure syntax to interact with R environment."
+                        "Key Tasks: Integration, Domain specific language design, Bootstrap Methods, Fractal Analysis Methods, Fuzzy logic Methods."]}
+ 
+ {:db/id #db/id[:db.part/user]
+  :project/resumetype #db/id[:db.part/user -7]
+  :project/title "Industrial Machine Remote logging utility"
+  :project/description ["Description: Ability to monitor Industrial devices remotely and receive notifications when machine operations are outside of defined specification."
+                        "Technologies:   JSF, Primefaces, JAVA, , JQuery, CSS, AWS, Glassfish, REST."
+                        "Key Task: Interface specification, Integration, Development."]}
+ {:db/id #db/id[:db.part/user]
+  :profile/resumetype #db/id[:db.part/user -7]
+  :profile/title "Technical Project Manger"
+  :profile/description ["Resource acquisition domestic and abroad"
+                        "Resource training, task alignment, load balancing, technical guidance"
+                        "Identify business gaps prime for technical solutions"
+                        "Conceptualization and solidification of projects through stakeholder interaction and motivational engagement"
+                        "Acquisition of hardware and software"
+                        "Large scale project integration"
+                        "Risk and contingency analysis, communication planning, Change management"]}
+ 
+ {:db/id #db/id[:db.part/user]
+  :profile/resumetype #db/id[:db.part/user -7]
+  :profile/title "Software Engineer"
+  :profile/description ["Match Technological solutions with business requirements"
+                        "Develop and maintain Application frameworks"
+                        "Provide support and training in development efforts"
+                        "Planned and implemented SDLC"
+                        "Work to couple multiple teams for a common goal"
+                        "Developed and extended Data models"
+                        "Plan and performed data conversions"
+                        "Advanced reporting and metric extraction"
+                        "Reviewed software for code standards and efficiency"]}
+ 
+ {:db/id #db/id[:db.part/user]
+  :profile/resumetype #db/id[:db.part/user -7]
+  :profile/title "Lead Developer"
+  :profile/description ["Extended Systems to satisfy changed business requirements"
+                        "Maintained and extended data access layer"
+                        "Maintained code in legacy systems"
+                        "Prototyped and implemented UI layouts"
+                        "Strategic planning and scope correction"
+                        "Communicate with PM and Directors on progress and deadlines"]}
+ 
+ 
+ {:db/id #db/id[:db.part/user]
+  :profile/resumetype #db/id[:db.part/user -7]
+  :profile/title "Quality Assurance"
+  :profile/description ["Created and maintained documentation for stakeholders"
+                        "Created and maintained test scripts"
+                        "Worked with business partners to understand requirements"
+                        "Performed regression analysis"]}
+ 
+ 
+ {:db/id #db/id[:db.part/user]
+  :profile/resumetype #db/id[:db.part/user -7]
+  :profile/title "Researcher"
+  :profile/description ["Sample design and proof of concept modelling"
+                        "Statistical modelling (multi regression, logistic regression, ANOVA …)"
+                        "Data cleaning and transformations"
+                        "Multi-medium communication of results and methods"
+                        "Magnetic Resonant Image  transformation and feature extraction"
+                        "Image analysis using numerical intelligence"
+                        "Image feature extraction using uniquely created algorithms"
+                        "Developed software tools for image analyses"
+                        "Provided in depth statistical analysis of post cardiothoracic surgery insulin responses"
+                        "Created numerical intelligence algorithm to automate blood displacement calculation of the human heart."]}
+ 
+ 
+ {:db/id #db/id[:db.part/user]
+  :profile/resumetype #db/id[:db.part/user -7]
+  :profile/title "VBA developer"
+  :profile/description ["Derivation of business metrics from needs"
+                        "Implement business metric analysis system"
+                        "Created Complex Excel Macros"]}
+ 
+ 
+ {:db/id #db/id[:db.part/user]
+  :profile/resumetype #db/id[:db.part/user -7]
+  :profile/title "Master Electronics Technician / Assistant Store Manger"
+  :profile/description ["Developed and upheld business processes and metrics"
+                        "Performed Gap analysis and resolution plans"
+                        "Provided expert solutions for electronic integration issues "
+                        "Performed level three diagnostics and resolution"
+                        "Worked with Insurance companies to resolve liability issues"]}
+ 
+ {:db/id #db/id[:db.part/user]
+  :profile/resumetype #db/id[:db.part/user -7]
+  :profile/title "Radioman"
+  :profile/description ["Developed Macros to automate frequent task"
+                        "Provided OS and Hardware support"
+                        "Diagnosed and resolved software and hardware issues"
+                        "Performed maintained on multifaceted communication equipment"
+                        "Provided foreign naval personal support and training for transitional vessels."]}
+ 
+ 
+ ]
+

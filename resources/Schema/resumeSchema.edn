@@ -1,0 +1,207 @@
+
+[
+ 
+ ;resume type
+ {:db/id #db/id[:db.part/db]
+  :db/ident :resume/resumetype
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc "Resume resumetype"
+  :db.install/_attribute :db.part/db}
+ 
+  
+;personal statement
+ {:db/id #db/id[:db.part/db]
+  :db/ident :statement/statement
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc ""
+  :db.install/_attribute :db.part/db}
+
+  {:db/id #db/id[:db.part/db]
+  :db/ident :statement/title
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc ""
+  :db.install/_attribute :db.part/db}
+  
+ {:db/id #db/id[:db.part/db]
+  :db/ident :statement/resumetype
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db/isComponent true
+  :db.install/_attribute :db.part/db}
+    
+ ;profile
+ {:db/id #db/id[:db.part/db]
+  :db/ident :profile/resumetype
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db/isComponent true
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :profile/title
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc "title / Role / Position"
+  :db.install/_attribute :db.part/db}
+ 
+ {:db/id #db/id[:db.part/db]
+  :db/ident :profile/description
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/many
+  :db/fulltext true
+  :db/doc "title / Role / Position"
+  :db.install/_attribute :db.part/db}
+ 
+ ;jobs
+ {:db/id #db/id[:db.part/db]
+  :db/ident :job/resumetype
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db/isComponent true
+  :db.install/_attribute :db.part/db}
+    
+ {:db/id #db/id[:db.part/db]
+  :db/ident :job/emp-name
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc "Employer Name"
+  :db.install/_attribute :db.part/db}
+  
+  {:db/id #db/id[:db.part/db]
+  :db/ident :job/date-start
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc "Date Started"
+  :db.install/_attribute :db.part/db}
+  
+  {:db/id #db/id[:db.part/db]
+  :db/ident :job/date-end
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc "Date end"
+  :db.install/_attribute :db.part/db}
+   
+  {:db/id #db/id[:db.part/db]
+  :db/ident :job/title
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc "title / Role / Position"
+  :db.install/_attribute :db.part/db}
+  
+ ;concept
+ {:db/id #db/id[:db.part/db]
+   :db/ident :concept/resumetype
+   :db/valueType :db.type/ref
+   :db/cardinality :db.cardinality/one
+   :db/isComponent true
+   :db.install/_attribute :db.part/db}
+  
+ {:db/id #db/id[:db.part/db]
+   :db/ident :concept/title
+   :db/valueType :db.type/string
+   :db/cardinality :db.cardinality/one
+   :db/fulltext true
+   :db/doc "title / Role / Position"
+   :db.install/_attribute :db.part/db}
+  
+ {:db/id #db/id[:db.part/db]
+   :db/ident :concept/summary
+   :db/valueType :db.type/string
+   :db/cardinality :db.cardinality/many
+   :db/fulltext true
+   :db/doc "title / Role / Position"
+   :db.install/_attribute :db.part/db}  
+
+;education
+  {:db/id #db/id[:db.part/db]
+  :db/ident :education/resumetype
+  :db/valueType :db.type/ref
+  :db/cardinality :db.cardinality/one
+  :db/isComponent true
+  :db.install/_attribute :db.part/db}
+    
+  {:db/id #db/id[:db.part/db]
+  :db/ident :education/college-name
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc "College Name"
+  :db.install/_attribute :db.part/db}
+  
+  {:db/id #db/id[:db.part/db]
+  :db/ident :education/date-start
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc "Date Started"
+  :db.install/_attribute :db.part/db}
+  
+  {:db/id #db/id[:db.part/db]
+  :db/ident :education/date-end
+  :db/valueType :db.type/string
+  :db/cardinality :db.cardinality/one
+  :db/fulltext true
+  :db/doc "Date end"
+  :db.install/_attribute :db.part/db}
+   
+  {:db/id #db/id[:db.part/db]
+   :db/ident :education/degree
+   :db/valueType :db.type/string
+   :db/cardinality :db.cardinality/many
+   :db/fulltext true
+   :db/doc "title / Role / Position"
+   :db.install/_attribute :db.part/db}
+  
+  {:db/id #db/id[:db.part/db]
+   :db/ident :education/description
+   :db/valueType :db.type/string
+   :db/cardinality :db.cardinality/many
+   :db/fulltext true
+   :db/doc "title / Role / Position"
+   :db.install/_attribute :db.part/db}
+  
+  {:db/id #db/id[:db.part/db]
+   :db/ident :education/gpa
+   :db/valueType :db.type/string
+   :db/cardinality :db.cardinality/many
+   :db/fulltext true
+   :db/doc "Education GPA"
+   :db.install/_attribute :db.part/db}
+  
+  ;project
+   {:db/id #db/id[:db.part/db]
+   :db/ident :project/resumetype
+   :db/valueType :db.type/ref
+   :db/cardinality :db.cardinality/one
+   :db/isComponent true
+   :db.install/_attribute :db.part/db}
+  
+  {:db/id #db/id[:db.part/db]
+   :db/ident :project/title
+   :db/valueType :db.type/string
+   :db/cardinality :db.cardinality/one
+   :db/fulltext true
+   :db/doc "Project title"
+   :db.install/_attribute :db.part/db}
+  
+   {:db/id #db/id[:db.part/db]
+   :db/ident :project/description
+   :db/valueType :db.type/string
+   :db/cardinality :db.cardinality/many
+   :db/fulltext true
+   :db/doc "Project description"
+   :db.install/_attribute :db.part/db}
+   
+   
+  ]
