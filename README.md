@@ -1,7 +1,7 @@
 # resumeWeb
 This is a support project for training new clojure developers. The following technologies are used:
 
-1) Clojure
+1) Clojure<br/>
 2) Cojurscript
 3) Ring
 4) Datomic
