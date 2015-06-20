@@ -2,21 +2,21 @@
 This is a support project for training new clojure developers. The following technologies are used:
 
 1) Clojure<br/>
-2) Cojurscript
-3) Ring
-4) Datomic
-5) OM (React)
-4) Racehub (Bootstrap)
-5) Compojure
-6) Figwheel
-7) Custom build setup for eclipse
-8) leiningen
-9) EDN
-10) cljs.reader
-11) ajax.core
-12) garden.core
-13) datomic.api
-14) hiccups
+2) Cojurscript<br/>
+3) Ring<br/>
+4) Datomic<br/>
+5) OM (React)<br/>
+4) Racehub (Bootstrap)<br/>
+5) Compojure<br/>
+6) Figwheel<br/>
+7) Custom build setup for eclipse<br/>
+8) leiningen<br/>
+9) EDN<br/>
+10) cljs.reader<br/>
+11) ajax.core<br/>
+12) garden.core<br/>
+13) datomic.api<br/>
+14) hiccups<br/>
 
 
 Companion Training information is private and not shared with external sources.
