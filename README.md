@@ -9,7 +9,7 @@ This is a support project for training new clojure developers. The following tec
 4) Racehub (Bootstrap)<br/>
 5) Compojure<br/>
 6) Figwheel<br/>
-7) Custom build setup for eclipse<br/>
+7) Custom build setup for Eclipse enviroment<br/>
 8) leiningen<br/>
 9) EDN<br/>
 10) cljs.reader<br/>
