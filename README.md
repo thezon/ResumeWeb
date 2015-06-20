@@ -1,5 +1,5 @@
 # resumeWeb
-This is a support project for training new clojure developers. The following technologies are used:
+This is a support project to assist with training of new clojure resouces. The following technologies are used:
 
 1) Clojure<br/>
 2) Cojurscript<br/>
