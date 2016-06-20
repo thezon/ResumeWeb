@@ -7,10 +7,12 @@
 
 (defn get-resume [request] 
   (ring-resp/response 
-    (str 
-      (data/get-resume
-        (read-string (:resumetype (:params request )))))))
-
+    (try
+      (str 
+        (data/get-resume
+          (Long. (:resumetype (:params request )))))
+        (catch Exception e (str e request )))))
+  
 (defn get-res-types [request]
   (ring-resp/response 
     (str (data/get-resume-types))))

@@ -32,8 +32,8 @@
 (get-call :resume-types "/getresumetypes")
 
 (defn get-resume-data [res-id]
-  "Call to server for resume data by id"
-  (get-call :resume-data (str "/getresume?resumetype="res-id)))
+  "Call to server for resume data by id "
+  (get-call :resume-data (str "/getresume?resumetype=" res-id)))
 
 (defn res-style [data res-style]
   (swap! app-state assoc :res-style res-style))
@@ -145,7 +145,7 @@
                                (b/button {:onClick (fn [] (res-style data load-basic))} "Basic"))
                
                (b/button-group {} 
-                               (for [value (range 1 6)]
+                               (for [value (range 1 6 2)]
                                  (b/button {:onClick (fn []  (swap! app-state assoc :cols value))} value))))))
 
 (defn test-comp-gen [data owner]
